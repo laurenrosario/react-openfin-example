@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
 import './index.css'
-import { ExampleHost } from './views/ExampleHost'
+import { ExampleHost } from './views/ExamplePopout'
 
 const Provider = React.lazy(() => import('./platform/Provider'))
 const View1 = React.lazy(() => import('./views/View1'))

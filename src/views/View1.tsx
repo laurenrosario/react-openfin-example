@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../logo.svg'
 import '@finos/fdc3'
-import ExampleStack from './ExamplePopout'
+import ExampleStack from './ExampleStack'
 export interface ExampleWindowType {
   content: string
   useFinWindow: boolean
